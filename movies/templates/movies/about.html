@@ -1,0 +1,9 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    {% block content %}
+    <h1>I Love Murphy</h1>
+    {% load static %}
+    <img style="width:750px;" src="{% static 'movies/murphy.jpg' %}" alt="About Murphy Picture">
+    {% endblock %}
+</html>
